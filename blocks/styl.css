@@ -1,0 +1,77 @@
+.places {
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 92px;
+    width: 80%;
+  
+  }
+  
+    
+  .place {
+    border: 1px solid red;
+    display: flex;
+    
+  }
+  .place__column {
+    width: calc((100% - 40px)/2);
+}
+
+  .place__title {
+    border: 1px solid red;
+    margin: 0;
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: bold;
+    margin-bottom: 48px;
+    width: 460px;
+    
+  }
+  
+  .place__image {
+    border: 1px solid red;
+    background-image: url(../images/place-kosa.jpg) ;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 100%;
+  }
+  
+  
+     
+  }
+  
+  .place__website {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 48px;
+  }
+  
+  .place__link {
+    text-decoration: underline;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .place__url-heading {
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 1;
+    color: rgba(170, 170, 170, 1);
+    letter-spacing: 0.2em;
+    ;
+  }
+  .place__text {
+    margin-left: 40px
+  }
+   
+  .place__paragraph {
+    border: 1px solid red;
+    margin: 0;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: normal;
+    padding-bottom: 26px;
+  
+  }
