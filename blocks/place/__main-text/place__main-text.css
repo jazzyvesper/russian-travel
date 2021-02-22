@@ -1,0 +1,17 @@
+.place__main-text {
+  display: flex;
+  margin-top: 48px;
+}
+
+@media screen and (min-width:426px) and (max-width:767px) {
+  .place__main-text {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px){
+  .place__main-text {
+    flex-wrap: wrap;
+    margin-top: 32px;
+  }
+}

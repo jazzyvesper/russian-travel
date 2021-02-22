@@ -1,0 +1,13 @@
+.header {
+  margin: 28px auto 56px;
+  color: #FFF;
+  display: grid;
+  width: 90%;
+  grid-template-columns: 1fr fit-content(100px);
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px){
+  .header {
+    height: 42px;
+  }
+}
