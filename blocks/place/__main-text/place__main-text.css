@@ -1,5 +1,7 @@
 .place__main-text {
   display: flex;
+  justify-content: start;
+  align-items: start;
   margin-top: 48px;
 }
 
