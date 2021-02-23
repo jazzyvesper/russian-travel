@@ -4,14 +4,19 @@
   margin-left: 40px;
 }
 
-@media screen and (min-width:426px) and (max-width:767px) {
+@media screen and (min-width: 951px) and (max-width: 1140px) {
   .place__text {
-    width: 100%;
-    margin: 0;
+     margin-left: 32px;
+   }
+}
+
+@media screen and (min-width:551px) and (max-width:950px) {
+  .place__text {
+    margin-left: 28px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px){
+@media screen and (min-width: 320px) and (max-width: 550px){
   .place__text {
     width: 90%;
     margin: 0;
