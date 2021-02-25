@@ -1,7 +1,7 @@
 
 
 
-@media screen and (min-width: 320px) and (max-width: 550px) {
+@media screen and (max-width: 550px) {
     .footer__column-list {
       margin-bottom: 32px;
     }
