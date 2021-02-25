@@ -1,3 +1,4 @@
 .lead__image {
-    
+    max-width: 984px;
+    min-width: 320px;
 }
