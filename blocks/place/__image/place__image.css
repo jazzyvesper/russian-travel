@@ -1,9 +1,25 @@
 .place__image {
-  width: 45%;
+  width: 46%;
+  min-height: 460px;
+  object-fit: contain;
+  object-position: top;
+}
+
+@media screen and (min-width: 951px) and (max-width: 1140px) { 
+  .place__image {
+    min-height: 440px;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 950px) { 
+  .place__image {
+    min-height: 340px;
+  }
 }
 
 @media screen and (max-width: 550px){
   .place__image {
     width: 100%;
+    min-height: 320px;
   }
 }

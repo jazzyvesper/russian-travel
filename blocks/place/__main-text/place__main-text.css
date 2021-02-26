@@ -1,8 +1,8 @@
 .place__main-text {
   display: flex;
-  justify-content: start;
-  align-items: start;
   margin-top: 48px;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 @media screen and (max-width: 550px){
