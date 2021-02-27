@@ -3,13 +3,7 @@
   max-width: 984px;
 }
 
-@media screen and (min-width: 951px) and (max-width: 1140px) {
-  .places {
-     width: 91%;
-   }
-}
-
-@media screen and (min-width: 551px) and (max-width: 950px) {
+@media screen and (min-width: 551px) and (max-width: 1140px) {
   .places {
      width: 91%;
    }

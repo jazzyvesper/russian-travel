@@ -2,4 +2,10 @@
   margin: auto;
   margin-top: 92px;
   max-width: 1184px;
+  background-color: rgba(42, 44, 47, 0.3);
+  transition: background-color 0.3s;
+}
+
+.cover:hover {
+  background-color: rgba(42, 44, 47, 0.8);
 }
